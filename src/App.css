@@ -1,0 +1,23 @@
+:root {
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-manrope: "Manrope", serif;
+  --text-color: "#C7C7C7";
+}
+
+body {
+  font-family: var(--font-manrope);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
